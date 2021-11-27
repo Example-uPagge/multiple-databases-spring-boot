@@ -1,0 +1,13 @@
+app:
+  dbone:
+    datasource:
+      class-driver: org.h2.Driver
+      username: sa
+      password: password
+      url: jdbc:h2:mem:dbh2
+  dbtwo:
+    datasource:
+      class-driver: org.postgresql.Driver
+      username: postgres
+      password: 121314Ma
+      url: jdbc:postgresql://localhost:5432/dbpostgres
